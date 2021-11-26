@@ -1,0 +1,31 @@
+
+###
+POST http://localhost:9000/api/user_create
+Content-Type: application/json
+
+{
+    "email" : "fadliselaz@gmail.com",
+    "password" : "123123123"    
+}
+
+###
+GET http://localhost:9000/api/user_read
+Content-Type: application/json
+
+###
+PUT http://localhost:9000/api/user_update
+Content-Type: application/json
+
+{
+    "email" : "fadliselaz@gmail.com",
+    "hoby" : ["makan", "tidur", "ee"]
+    
+}
+
+###
+DELETE http://localhost:9000/api/user_delete
+Content-Type: application/json
+
+{
+    "email" : "fadliselaz@gmail.com"
+}

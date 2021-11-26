@@ -1,0 +1,23 @@
+{
+  "name": "project_firebase",
+  "version": "1.0.0",
+  "description": "project firebase",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js --watch"
+  },
+  "keywords": [],
+  "author": "fadliselaz",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^5.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "firebase": "^8.8.0",
+    "multer": "^1.4.2",
+    "rxfire": "^4.0.0",
+    "rxjs": "^7.3.0",
+    "uuidv4": "^6.2.11"
+  }
+}

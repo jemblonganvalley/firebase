@@ -1,0 +1,15 @@
+[
+  {
+    "email": "fadliselaz@gmail.com",
+    "password": "1qazxsw2",
+    "biodata": {
+      "alamat": "jakarta",
+      "phone": "08121365572",
+      "usia": 32,
+      "tanggal_lahir": 13,
+      "bulan_lahir": 7,
+      "tahun_lahir": 1987,
+      "menikah": true
+    }
+  }
+]

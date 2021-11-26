@@ -1,0 +1,16 @@
+###
+POST http://localhost:9000/api/biodata_create
+Content-Type: application/json
+
+{
+    "email" : "fadliselaz@gmail.com",
+    "biodata" : {
+        "alamat": "depok",
+        "phone": "08121365572",
+        "usia": 34,
+        "tanggal_lahir": 13,
+        "bulan_lahir": 7,
+        "tahun_lahir": 1987,
+        "menikah": true
+    }
+}
